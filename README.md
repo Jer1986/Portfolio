@@ -1,3 +1,3 @@
-# treehouse
+## Portfolio
 
-This is a respository for my project files on Treehouse
+This is a respository for projects I have worked on and contributed to.
