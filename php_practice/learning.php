@@ -17,7 +17,17 @@
     ?>
     
     
-        <!-- "\" these escape characters can be used to out put code in text.-->
-        <?php echo '<div> This is how you put a div tag in your PHP. </div>'; ?>
-            
+        <!-- "\" these escape characters can be used to out put code into text.-->
+        <?php echo '<div> This is how you put a div tag in your PHP. </div><br>'; ?>
+        
+        
+<!-- Embedding PHP inside HTML-->
+<?php
+    $message ="Hello Visitor!"
+
+?>
+
+    <input type="text" name="name" value= '<?php echo $message;?>'>
+    
+<hr>
     
