@@ -28,8 +28,21 @@
 ?>
 
     <input type="text" name="name" value= '<?php echo $message; ?>'>
+    <br>
+    <input type="submit" name="submit button" value="Say hello!">
     
 <hr>
+    <!-- If & else if-->
+    <?php
+        $tacos = "delicious";
+        if($tacos == "delicious"){
+            echo "Are tacos good? Yes! tacos are ".$tacos."!";
+        } else if ($tacos == "gross") {
+            echo "Are tacos good? No, they are gross!";
+        }else{
+            echo "Are tacos good ? I'm indifferent.";
+            }
+        
     
-    
+    ?>
     
