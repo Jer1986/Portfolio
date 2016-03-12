@@ -26,11 +26,12 @@
     $message ="Hello Visitor!"
 
 ?>
-
+    <form>
+    <strong>What's Your Name?</strong><br>   
     <input type="text" name="name" value= '<?php echo $message; ?>'>
     <br>
-    <input type="submit" name="submit button" value="Say hello!">
-    
+    <strong><input type="submit" name="submit button" value="Say hello!"></strong>
+    </form>
 <hr>
     <!-- If & else if-->
     <?php
