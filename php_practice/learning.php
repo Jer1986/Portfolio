@@ -1,14 +1,23 @@
 <?php
    
-    echo "This is a simple PHP statement<br>";
-   //this can be used to display lot of info regard the PHP installed locally phpinfo();
-   
+    echo "This is a simple PHP statement<br>";   
+    
     $moo = "French Bulldog";
     if($moo == "French Bulldog"){
-        echo "The ".$moo." "."is an expensive dog";
+        echo "The ".$moo." "."is an expensive dog<br>";
     }else{
-        echo "Moo, he's just a regular dog";
+        echo "Moo, he's just a regular dogs";
         
     }
+    ?>
 
-?>
+    <?php  echo "<strong>Hello, World!</strong><br>";
+           echo '<br>';
+            
+    ?>
+    
+    
+        <!-- "\" these escape characters can be used to out put code in text.-->
+        <?php echo '<div> This is how you put a div tag in your PHP. </div>'; ?>
+            
+    
