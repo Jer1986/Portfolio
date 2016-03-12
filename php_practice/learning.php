@@ -27,7 +27,9 @@
 
 ?>
 
-    <input type="text" name="name" value= '<?php echo $message;?>'>
+    <input type="text" name="name" value= '<?php echo $message; ?>'>
     
 <hr>
+    
+    
     
