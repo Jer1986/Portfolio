@@ -31,15 +31,26 @@ $sum1= 30;
  
     <h4><u>Logical Operators</u></h4>
     <?php
-    $number= 650;
+    $number= 250;
     $upper= 1000;
     $lower= 500;
     
-    if($number>=$lower || $number<=$upper){
-        echo "Okay!";
+    if(!($number>=$lower) && !($number<=$upper)){
+        echo "Okay! Your number is between ".$lower." and ".$upper;
     }else{
-        echo "That's false";
+        echo "Sorry! The number must be between ".$lower." and ".$upper.".<br>";
     }
+    ?>
+    <h4>Is 1 the same as "1" in PHP?</h4>
+   
+    <?php
+    $test=1;
+    $test2 = "1";
     
+    if($test === $test2){
+        echo "Yes".$test." is the same as ".$test2."<br>";
+    }else {
+        echo "No, ".$test." is not the same as "." '1' ";
+    }
     
     ?>
