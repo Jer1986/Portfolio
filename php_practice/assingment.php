@@ -17,3 +17,29 @@
         echo "This is false";
     }
 ?>
+<hr>
+    <h4><u>Arithmatic Operators</u></h4>
+<?php
+
+$sum = 15;
+$sum1= 30;
+ echo $sum."<br>";
+ echo $sum1."<br>";
+ $result = $sum+$sum1."<br>";
+ echo $result;
+ ?>
+ 
+    <h4><u>Logical Operators</u></h4>
+    <?php
+    $number= 650;
+    $upper= 1000;
+    $lower= 500;
+    
+    if($number>=$lower || $number<=$upper){
+        echo "Okay!";
+    }else{
+        echo "That's false";
+    }
+    
+    
+    ?>
