@@ -52,5 +52,38 @@ switch ($number){
     echo "Combined there are ";
     add($food1,$food2);
     echo " burritos and tacos.";
-
+    
+    echo "<br><br><strong><u>Functions With Strings & Integers</strong></u><br><br>";
+    
+    function theDate($day,$date,$year){
+        echo $day.''.$date." ".$year;
+    }
+        theDate("Monday ", 14 ,2016);
+        echo "<br>";
+        
+        function together($thing1, $thing2){
+            $things = $thing1+$thing2;
+            return $things;
+        }
+        echo "<br>";
+        echo together(25,25)+150;
+        echo "<br>";
+        
+        $userName = "Jennie";
+        
+        function name(){
+            global $userName;
+            $personName = "Your user name is ".$userName;
+            echo $personName;
+        }
+          name();
+          echo "<br>";
+          echo "<h4><u>String Functions</u></h4><br>";
+                  
+            $lengthOf = "We are finding the length of a string.";
+            $wordCount= str_word_count($lengthOf);
+            $stringL = strlen($lengthOf);
+            echo "The number of words in our string is ".$wordCount;
+            echo "<br>The length of our string is ".$stringL;
+          
 ?>
