@@ -61,7 +61,9 @@ $sum1= 30;
             echo $counter++."<br>";
             echo "<br>";
         }
-  
+        ?>
+        <strong><u>A Do While Loop</u></strong><br><br>
+        <?php
         $flavor = 10;
             do {
                 echo $flavor++;
@@ -69,4 +71,13 @@ $sum1= 30;
             }   while($flavor<21)
             
     ?>
+   <br><strong><u>And A For Loop</u></strong><br><br>
+    <?php
+        for($shoeSize = 8; $shoeSize>=1; $shoeSize--){
+            echo "We only have the following shoe sizes ";
+            echo $shoeSize."<br>";
+        }
+          
+    ?>
+    
     
