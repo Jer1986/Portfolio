@@ -83,7 +83,9 @@ switch ($number){
             $lengthOf = "We are finding the length of a string.";
             $wordCount= str_word_count($lengthOf);
             $stringL = strlen($lengthOf);
+            $jumbled = strrev($lengthOf);
             echo "The number of words in our string is ".$wordCount;
-            echo "<br>The length of our string is ".$stringL;
+            echo "<br>The length of our string is ".$stringL."<br>";
+            echo "Sometimes we get our words mixed up like this: ".$jumbled;
           
 ?>
