@@ -59,7 +59,14 @@ $sum1= 30;
     $counter = 0;    
         while($counter<10){
             echo $counter++."<br>";
+            echo "<br>";
         }
-    
+  
+        $flavor = 10;
+            do {
+                echo $flavor++;
+                echo " <-- How strange does this look ?"."<br>";
+            }   while($flavor<21)
+            
     ?>
     
