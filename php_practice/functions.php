@@ -1,3 +1,6 @@
+
+<body style="background-color: lightblue;" ></body>
+
 <?php
      // This is how to connect to a local host
    // mysqli_connect('localhost','root',' ') OR die("Could not connect to the database.");
@@ -98,3 +101,40 @@ switch ($number){
           echo "<br>The chance these two essay's are the same is about a ".$result." percent.";
           echo "<br>";
 ?>
+<?php
+echo <<<_END
+    <title>This is my PHP page</title>
+    <h3><u>Arrays</u><h3><br>
+     
+    <h5>But first! A string function.</h5>
+_END;
+?>
+<?php
+    $aString = "This is a string";
+    $trimmed = ltrim($aString,"string");
+    echo $trimmed."<br>";
+    
+    $food = array("Noodles","Meat", "Sauce");
+        echo $food[1];
+        echo "<br>";
+        $food[3]="Veggies";
+        print_r($food);
+    
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
