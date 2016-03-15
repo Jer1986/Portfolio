@@ -121,9 +121,13 @@ _END;
         echo "<br>";
         $food[3]="Veggies";
         print_r($food);
+        echo "<h4><u>Associative Array</u></h4>";
     
-
-
+    $dogTypes= array("Frenchie", "English Bull Terrier","Jack Russell");
+    $dogs= array("Frenchie"=>'$3500',"English Bull Terrier"=>'$2000',"Jack Russell"=>'$1500');
+    echo "<br>";
+    echo "The cost of a ".$dogTypes[0]." is ";
+    echo $dogs["Frenchie"];
 
 ?>
 
