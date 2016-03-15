@@ -87,5 +87,14 @@ switch ($number){
             echo "The number of words in our string is ".$wordCount;
             echo "<br>The length of our string is ".$stringL."<br>";
             echo "Sometimes we get our words mixed up like this: ".$jumbled;
-          
+            echo "<br>";
+                      echo "<h4><u>Checking For Plagiarism</u></h4>";
+
+        $essay1= "This is my essay and I wrote it wiht my own research.";
+        $essay2 ="This is my essay and I wrote it wiht my own research no one helped me.";
+          similar_text($essay1,$essay2,$result);
+          echo "<br> Essay 1: ".$essay1."<br>";
+          echo "<br> Essay 2: ".$essay2."<br>";            
+          echo "<br>The chance these two essay's are the same is about a ".$result." percent.";
+          echo "<br>";
 ?>
