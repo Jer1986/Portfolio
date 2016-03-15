@@ -127,7 +127,18 @@ _END;
     $dogs= array("Frenchie"=>'$3500',"English Bull Terrier"=>'$2000',"Jack Russell"=>'$1500');
     echo "<br>";
     echo "The cost of a ".$dogTypes[0]." is ";
-    echo $dogs["Frenchie"];
+    echo $dogs["Frenchie"]."<br>";
+            echo "<h4><u>Multi Dimensional Array </u></h4><br>";
+
+    $scuba = array("Recreational"=>array("Open Water diver","air","above 130ft"),
+                   "Technical"=>array("mixed gas","below 130ft.","more planning than recreational diving"));
+        
+        
+        echo "One aspect of technical diving is diving ";    
+        echo $scuba ["Technical"][1];
+        echo " A part of recreational diving is diving ";
+        echo $scuba["Recreational"][2];
+
 
 ?>
 
