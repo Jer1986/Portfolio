@@ -1,5 +1,7 @@
 
-<body style="background-color: lightblue;" ></body>
+<body style="background-color: lightblue;" >
+
+</body>
 
 <?php
      // This is how to connect to a local host
