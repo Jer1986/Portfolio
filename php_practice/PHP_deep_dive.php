@@ -28,3 +28,22 @@
     }
 
 ?>
+    <h3>Up Next On Our Deep Dive...</h3>
+    <?php
+    
+        echo "We're using ". "<u>Include & Require</u>";
+        echo "<br>";
+        
+        $string= "This is a string";
+        
+        if (preg_match("/is a/ ",$string)){
+            echo "Match found ! <br>";
+        }else{
+            echo "No match found.<br>";
+            
+        }
+        
+        
+        
+        
+        
