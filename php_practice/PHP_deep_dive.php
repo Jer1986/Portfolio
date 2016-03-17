@@ -57,12 +57,9 @@
      if (has_space($string)){
         echo "There is space in this sentence<br>";
      } else {
-
-        
-        
         echo "There is no space here in this sentence.";
      }
-     
+    }
         $hello= "<u>Hi there! We're diving deeper into PHP.</u>";
           
           $theLength = strlen($hello);
@@ -74,10 +71,24 @@
         echo $gum2."<br>";
         $gum3 = strtoupper($gum);
         echo "$gum3";
-  ?>
-<
+
+          if(isset($_GET["user_name"]) && !empty($_GET["user_name"])){
+               $user_name = $_GET["user_name"];
+        }
         
-         <form action="PHP_deep_dive.php" method="GET">
+ ?>
+    <form action="php_deep_dive.php" method="GET">
             NAME: <input type="text" name="user_name"><br><br>
                   <input type="submit" value="Click Here">
-        </form>
+    </form>
+    
+<?php
+    $what = "This is an example of a string and is kind of boring";
+    $find = "i";
+    $offset = 0;
+    $find_length = strlen($find);
+//echo strpos($what, $find,3);
+
+    while($sting_position = strpos($string, $find, $offset)){
+        
+    }
