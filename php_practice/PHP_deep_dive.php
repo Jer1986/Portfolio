@@ -30,20 +30,38 @@
 ?>
     <h3>Up Next On Our Deep Dive...</h3>
     <?php
-    
-        echo "We're using ". "<u>Include & Require</u>";
-        echo "<br>";
-        
-        $string= "This is a string";
-        
-        if (preg_match("/is a/ ",$string)){
-            echo "Match found ! <br>";
-        }else{
-            echo "No match found.<br>";
-            
+            echo "<br>";
+            echo "<Strong>We're using <u>preg_match</u></Strong><br><br>";
+                
+        function has_space($string) {
+            if (preg_match("/ /", $string)) {
+            return true;
+        } else {
+            return false;
         }
+    }
+    
+        $string = "This is a string";
+         global $string;
+         
+     if (has_space($string)){
+        echo "There is space in this sentence<br>";
+     } else {
         
-        
-        
-        
+        echo "There is no space here in this sentence.";
+     }
+     
+        $hello= "<u>Hi there! We're diving deeper into PHP.</u>";
+          
+          $theLength = strlen($hello);
+          echo "The length of ".$hello." is ".$theLength." characters.<br>";
+          
+          
+        $gum = "<br>This is SOME CRazy TypINg";
+        $gum2 = strtolower($gum);
+        echo $gum2."<br>";
+        $gum3 = strtoupper($gum);
+        echo "$gum3";
+    
+    ?>
         
