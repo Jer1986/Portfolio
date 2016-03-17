@@ -27,10 +27,8 @@
         }
     }
 
-?>
-    <h3>Up Next On Our Deep Dive...</h3>
-    <?php
 
+        echo "<h3>Up Next On Our Deep Dive...</h3>";
     
         echo "We're using ". "<u>Include & Require</u>";
         echo "<br>";
@@ -42,7 +40,6 @@
         }else{
             echo "No match found.<br><br>";
             
-=======
             echo "<br>";
             echo "<Strong>We're using <u>preg_match</u></Strong><br><br>";
                 
@@ -77,11 +74,10 @@
         echo $gum2."<br>";
         $gum3 = strtoupper($gum);
         echo "$gum3";
-    
-    ?>
+  ?>
+<
         
-         <form action="deep_dive.php" method="GET">
+         <form action="PHP_deep_dive.php" method="GET">
             NAME: <input type="text" name="user_name"><br><br>
                   <input type="submit" value="Click Here">
         </form>
-        
