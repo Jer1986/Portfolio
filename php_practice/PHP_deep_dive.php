@@ -37,13 +37,18 @@
         $string= "This is a string";
         
         if (preg_match("/is a/ ",$string)){
-            echo "Match found ! <br>";
+            echo "Match found ! <br><br>";
         }else{
-            echo "No match found.<br>";
+            echo "No match found.<br><br>";
             
         }
         
+        ?>
         
+        <form action="deep_dive.php" method="GET">
+            NAME: <input type="text" name="user_name"><br><br>
+                  <input type="submit" value="Click Here">
+        </form>
         
         
         
