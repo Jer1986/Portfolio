@@ -87,8 +87,12 @@
     $find = "i";
     $offset = 0;
     $find_length = strlen($find);
-//echo strpos($what, $find,3);
+    echo strpos($what, $find,3);
 
-    while($sting_position = strpos($string, $find, $offset)){
-        
+    while($sting_position = strpos($string, $find, $offset)){ 
+      echo $find." found at ".$sting_position."<br>";
+      $offset = $sting_position + $find_length;
     }
+    
+    echo "<h3><u>Now it's time for more functions</u></h3>"
+    echo "<br>";
