@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Simple HTML Form</title>
+</head>
+
+<body>
+<form method="post">
+    <h1 id="register">Register</h1>
+    <label for="fist"> First Name:  
+    <input id="first" name="first" type="text" placeholder="first name">
+    </label>
+    <label for="last"> Last Name:  
+    <input id="last" name="last" type="text" placeholder="last name">
+    </label>
+    <br>
+    <label>Male<input id="male" name="gender" type="radio"></label>
+    <label>Female<input id="Female" name="gender" type="radio"></label>
+    <label>Other<input id="Other" name="gender" type="radio"></label>
+    <br>
+    <!--user name and password-->
+    <label for="Email"> Email:  
+    <input id="Email" type="email"  placeholder="your email" required>
+    </label>
+    <label> Password:  
+    <input id="Password" type="password"  placeholder="your password" name="password" pattern="[A-Za-z@#$%^&*!]{5,10}" title="5 to 10 characters" required>
+    </label>
+    <br>
+    <!--Birthay-->
+    <label>Birthday:</label>
+    <select>
+        <option value="Month">Month</option>
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+    </select>
+    <select>
+        <option value="Day">Day</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="25">25</option>
+    </select>
+    <select>
+        <option value="Year">Year</option>
+        <option value="Year">1988</option>
+        <option value="Year">1987</option>
+        <option value="Year">1986</option>
+    </select>
+    <br>
+    <label>
+       I agree to the terms and conditions <input id="agree to terms" type="checkbox" required>
+    </label>
+    <br>
+    <input type="submit" id="submit" value="Sumbit">
+</form>
+
+
+</body>
+</html>
