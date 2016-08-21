@@ -1,0 +1,10 @@
+p {
+    font-family:'Baloo Tamma', cursive;
+    font-weight: 400;
+}
+
+
+.row-one{
+    border: solid black;
+    border-width: medium
+}
