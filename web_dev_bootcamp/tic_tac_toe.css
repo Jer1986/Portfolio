@@ -1,10 +1,33 @@
-p {
+h1 {
     font-family:'Baloo Tamma', cursive;
-    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+}
+
+table{
+     margin: auto;
+
 }
 
 
-.row-one{
-    border: solid black;
-    border-width: medium
+td {
+    border: 1px solid black;
+    padding: 50px;  
+}
+
+#tlcorner, #lmiddle, #lbottom{
+    border-left: hidden;
+  
+}
+
+#tlcorner,#tcmiddle,#trcorner {
+    border-top: hidden;
+}
+
+#trcorner, #rmiddle, #rbottom{
+    border-right: hidden;
+}
+
+#lbottom, #mbottom, #rbottom{
+    border-bottom: hidden;
 }
