@@ -11,16 +11,20 @@ pay attention to alignment of the elements
 
 the date is in all caps and is spaced apart.
 
+NOTE: Use calculated spacing to figure out how much spacing is needed.
+
 */
 
 body{
     font-family: 'Merriweather', serif;
     border: 20px solid #bdc3c7;
     padding:5%;
+    margin: 5%;
 }
 .date{
     text-transform: uppercase;
     letter-spacing: 4px;
+    padding: 5px;
     margin:1px;
     color:#00bbe3;
 }
