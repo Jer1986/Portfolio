@@ -18,14 +18,15 @@ NOTE: Use calculated spacing to figure out how much spacing is needed.
 body{
     font-family: 'Merriweather', serif;
     border: 20px solid #bdc3c7;
-    padding:5%;
-    margin: 5%;
+    border-bottom: hidden;
+    border-top: hidden;
+    padding:2%;
+    margin: 0% 20% 0 20%;
 }
 .date{
     text-transform: uppercase;
     letter-spacing: 4px;
-    padding: 5px;
-    margin:1px;
+    padding: 5px 0px 5px 5px;
     color:#00bbe3;
 }
 h2{
@@ -37,7 +38,8 @@ h2{
     
 }
 hr{
-    color:#f0f5f5;
-    opacity: 30%;
+    height: 5px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
   
 }
