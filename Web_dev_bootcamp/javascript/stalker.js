@@ -7,4 +7,4 @@ console.log("Your are  " + age + " years old.");*/
 //Jascript Age calculator
 
 var yourAge = prompt("How old are you?");
-alert("You are "+ yourAge*365 + " days old");
+alert("You are "+ yourAge*365.25 + " days old");
