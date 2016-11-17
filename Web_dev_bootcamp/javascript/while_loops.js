@@ -7,7 +7,7 @@
  */
 
 var count = -10;
-while(count < 19) {
+while(count <= 19) {
 console.log(count);
 count++;
 }
@@ -27,7 +27,7 @@ varThree +=2;
 /**********/
 var varFour = 5;
 while(varFour <= 50){
-    if(varFour % 3 === 0 && varFour % 5 === 0){
+    if(varFour % 3 === 0 && varFour % 5 === 0){  /*  You can use mod to produce all of the negative numbers by using !===0*/
       console.log(varFour);  
     }
     varFour++; 
