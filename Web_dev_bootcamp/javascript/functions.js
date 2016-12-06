@@ -20,3 +20,8 @@ function factorial(fac){
 }
 
 // Kebab to Case function
+
+function kababToSnake(str){
+ var newStr = str.replace(/-/g , "_");
+   return newStr;
+}
