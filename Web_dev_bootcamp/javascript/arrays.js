@@ -8,4 +8,5 @@ more can be found here https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 */
 
 var x= ["Jose", "Juan", "Sara", "Stephanie"];
+x.push("Jennie");
 document.write(x[2] + " is just great!");
