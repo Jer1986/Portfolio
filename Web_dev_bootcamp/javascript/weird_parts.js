@@ -1,4 +1,4 @@
-//example of the scope chain
+//example of the scope chain in a lexical environment
 function b() {
    //let myVar;
    console.log(myVar);
