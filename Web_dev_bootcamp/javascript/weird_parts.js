@@ -13,3 +13,4 @@ function a() {
 const myVar = 1;
 console.log(myVar);
 a();
+//Dynamic Typing
