@@ -13,4 +13,5 @@ function a() {
 const myVar = 1;
 console.log(myVar);
 a();
-//Dynamic Typing
+/*********************/
+console.log(3 < 2 < 1); //this is true because 3 is less than 2 is false and false is less than one
