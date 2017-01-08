@@ -1,17 +1,9 @@
-//example of the scope chain in a lexical environment
-function b() {
-   //let myVar;
-   console.log(myVar);
+
+function largestOfFour(arr) {
+  for(var i = 0; i < arr.length; i++) {
+    for(var j = 0; j < arr[i].length; j++)
+      return arr[i][j];
+   }
 }
 
-function a() {
-   let myVar = 2;
-   //console.log(myVar);
-     b();
-}
-
-const myVar = 1;
-console.log(myVar);
-a();
-/*********************/
-console.log(3 < 2 < 1); //this is true because 3 is less than 2 is false and false is less than one
+largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
