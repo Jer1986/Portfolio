@@ -38,7 +38,7 @@
 
 const firstName = "Jose";
 (function(name) {
-  let greeting = "Hello ";
+  let greeting = "Hello there ";
   console.log(greeting + " " + name); 
 }(firstName));// example of an Immediately Invoked Function Expression (IFFE)
 
